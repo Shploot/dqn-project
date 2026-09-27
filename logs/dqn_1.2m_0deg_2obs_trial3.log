@@ -1,0 +1,57 @@
+Loaded trained model from nav_dqn_2obs.pt
+Goal set: 1.2m at 0 degrees from start.
+Starting in 9 seconds -- place robot at its start position now...
+Step   0 | action: turn right | pos: ( 0.000,  0.000) | dist to goal:  1.20m | sensors F/L/R: 0.50/0.87/2.00m | L/R pulses:      0/     0
+Step   1 | action: forward    | pos: ( 0.003, -0.000) | dist to goal:  1.20m | sensors F/L/R: 0.50/0.87/2.00m | L/R pulses:    256/  -205
+Step   2 | action: turn right | pos: ( 0.095, -0.027) | dist to goal:  1.11m | sensors F/L/R: 0.50/0.87/2.00m | L/R pulses:   1495/   367
+Step   3 | action: turn right | pos: ( 0.141, -0.054) | dist to goal:  1.06m | sensors F/L/R: 0.50/0.84/2.00m | L/R pulses:   2352/   509
+Step   4 | action: turn left  | pos: ( 0.160, -0.076) | dist to goal:  1.04m | sensors F/L/R: 0.51/0.56/0.65m | L/R pulses:   3254/   152
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   5 | action: turn left  | pos: ( 0.165, -0.089) | dist to goal:  1.04m | sensors F/L/R: 0.51/0.44/0.63m | L/R pulses:   3586/    79
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   6 | action: turn left  | pos: ( 0.165, -0.089) | dist to goal:  1.04m | sensors F/L/R: 0.65/0.42/0.61m | L/R pulses:   3250/   414
+Step   7 | action: forward    | pos: ( 0.160, -0.083) | dist to goal:  1.04m | sensors F/L/R: 2.00/0.41/0.61m | L/R pulses:   2622/   893
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   8 | action: forward    | pos: ( 0.232, -0.112) | dist to goal:  0.97m | sensors F/L/R: 2.00/0.41/0.62m | L/R pulses:   2693/  2289
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   9 | action: forward    | pos: ( 0.391, -0.123) | dist to goal:  0.82m | sensors F/L/R: 0.39/0.79/0.63m | L/R pulses:   3995/  3984
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step  10 | action: turn right | pos: ( 0.580, -0.120) | dist to goal:  0.63m | sensors F/L/R: 0.31/1.80/2.00m | L/R pulses:   5711/  5816
+Step  11 | action: turn right | pos: ( 0.652, -0.125) | dist to goal:  0.56m | sensors F/L/R: 0.26/1.80/2.00m | L/R pulses:   6682/  6206
+Step  12 | action: turn right | pos: ( 0.687, -0.139) | dist to goal:  0.53m | sensors F/L/R: 0.24/1.78/1.92m | L/R pulses:   7634/  5963
+Step  13 | action: turn left  | pos: ( 0.701, -0.156) | dist to goal:  0.52m | sensors F/L/R: 0.24/1.78/0.84m | L/R pulses:   8612/  5397
+Step  14 | action: turn left  | pos: ( 0.705, -0.166) | dist to goal:  0.52m | sensors F/L/R: 0.24/1.78/0.60m | L/R pulses:   8992/  5221
+Step  15 | action: turn left  | pos: ( 0.705, -0.166) | dist to goal:  0.52m | sensors F/L/R: 0.60/1.78/0.58m | L/R pulses:   8676/  5532
+Step  16 | action: turn left  | pos: ( 0.700, -0.160) | dist to goal:  0.52m | sensors F/L/R: 0.61/0.16/0.58m | L/R pulses:   8015/  6053
+Step  17 | action: forward    | pos: ( 0.689, -0.155) | dist to goal:  0.53m | sensors F/L/R: 0.61/0.16/0.58m | L/R pulses:   7124/  6710
+Step  18 | action: stop       | pos: ( 0.761, -0.144) | dist to goal:  0.46m | sensors F/L/R: 0.51/0.17/0.59m | L/R pulses:   6982/  8224
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step  19 | EVASIVE: turn right (obstacle at 0.13m) | pos: ( 0.831, -0.102) | sensors F/L/R: 0.13/0.64/1.78m | L/R pulses:   7466/  9279
+Step  20 | EVASIVE: turn right (obstacle at 0.13m) | pos: ( 0.842, -0.095) | sensors F/L/R: 0.13/0.64/1.78m | L/R pulses:   7786/  9208
+Step  21 | EVASIVE: turn right (obstacle at 0.10m) | pos: ( 0.852, -0.091) | sensors F/L/R: 0.10/0.64/1.77m | L/R pulses:   8407/  8787
+Step  22 | EVASIVE: turn right (obstacle at 0.09m) | pos: ( 0.861, -0.092) | sensors F/L/R: 0.09/0.62/1.77m | L/R pulses:   9204/  8155
+Step  23 | EVASIVE: turn right (obstacle at 0.10m) | pos: ( 0.867, -0.097) | sensors F/L/R: 0.10/0.61/1.20m | L/R pulses:  10098/  7399
+Step  24 | EVASIVE: turn right (obstacle at 0.10m) | pos: ( 0.868, -0.102) | sensors F/L/R: 0.10/0.41/0.61m | L/R pulses:  11039/  6561
+Step  25 | action: turn left  | pos: ( 0.867, -0.105) | dist to goal:  0.35m | sensors F/L/R: 0.62/0.41/0.61m | L/R pulses:  12008/  5659
+Step  26 | action: turn left  | pos: ( 0.867, -0.105) | dist to goal:  0.35m | sensors F/L/R: 0.62/0.59/0.60m | L/R pulses:  12370/  5294
+Step  27 | action: turn left  | pos: ( 0.871, -0.102) | dist to goal:  0.34m | sensors F/L/R: 0.62/0.61/0.64m | L/R pulses:  12026/  5549
+Step  28 | action: turn right | pos: ( 0.876, -0.093) | dist to goal:  0.34m | sensors F/L/R: 0.62/0.62/1.61m | L/R pulses:  11364/  6015
+Step  29 | action: stop       | pos: ( 0.878, -0.086) | dist to goal:  0.33m | sensors F/L/R: 0.62/0.62/1.61m | L/R pulses:  11132/  6108
+Step  30 | action: turn left  | pos: ( 0.878, -0.086) | dist to goal:  0.33m | sensors F/L/R: 0.62/0.67/0.66m | L/R pulses:  11207/  6025
+Step  31 | action: turn left  | pos: ( 0.878, -0.083) | dist to goal:  0.33m | sensors F/L/R: 0.62/0.67/0.65m | L/R pulses:  10957/  6234
+Step  32 | action: turn left  | pos: ( 0.878, -0.075) | dist to goal:  0.33m | sensors F/L/R: 0.62/0.68/0.65m | L/R pulses:  10329/  6705
+Step  33 | action: forward    | pos: ( 0.871, -0.065) | dist to goal:  0.34m | sensors F/L/R: 0.62/0.67/0.64m | L/R pulses:   9480/  7324
+Step  34 | EVASIVE: turn right (obstacle at 0.07m) | pos: ( 0.938, -0.100) | sensors F/L/R: 0.65/0.07/0.63m | L/R pulses:   9393/  8835
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step  35 | EVASIVE: turn right (obstacle at 0.06m) | pos: ( 0.988, -0.112) | sensors F/L/R: 0.06/0.36/0.63m | L/R pulses:   9987/  9199
+Step  36 | EVASIVE: turn right (obstacle at 0.06m) | pos: ( 1.008, -0.122) | sensors F/L/R: 0.06/0.36/0.63m | L/R pulses:  10692/  8911
+Step  37 | EVASIVE: turn right (obstacle at 0.06m) | pos: ( 1.014, -0.130) | sensors F/L/R: 0.06/0.37/0.62m | L/R pulses:  11477/  8325
+Step  38 | action: turn left  | pos: ( 1.015, -0.133) | dist to goal:  0.23m | sensors F/L/R: 0.63/0.37/0.60m | L/R pulses:  12294/  7571
+Step  39 | action: turn left  | pos: ( 1.016, -0.131) | dist to goal:  0.23m | sensors F/L/R: 0.63/0.66/0.60m | L/R pulses:  12551/  7274
+Step  40 | action: turn left  | pos: ( 1.017, -0.124) | dist to goal:  0.22m | sensors F/L/R: 0.62/0.67/0.62m | L/R pulses:  12182/  7509
+Step  41 | action: turn left  | pos: ( 1.016, -0.112) | dist to goal:  0.22m | sensors F/L/R: 0.62/0.67/0.63m | L/R pulses:  11504/  7970
+Step  42 | action: turn left  | pos: ( 1.008, -0.101) | dist to goal:  0.22m | sensors F/L/R: 0.62/0.66/0.63m | L/R pulses:  10629/  8588
+Step  43 | action: forward    | pos: ( 0.994, -0.095) | dist to goal:  0.23m | sensors F/L/R: 0.63/0.31/0.63m | L/R pulses:   9626/  9295
+
+GOAL REACHED.
+Motors stopped.

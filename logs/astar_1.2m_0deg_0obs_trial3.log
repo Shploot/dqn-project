@@ -1,0 +1,34 @@
+A* planned path found: True (13 waypoints)
+Goal set: 1.2m at 0.0 degrees from start.
+Starting in 9 seconds -- place robot at its start position now...
+Step   0 | action: forward    | pos: ( 0.000,  0.000) | dist to goal:  1.20m | sensors F/L/R: 0.71/1.15/2.00m | waypoint 2/13 | L/R pulses:      0/     0
+Step   1 | action: forward    | pos: ( 0.084,  0.000) | dist to goal:  1.12m | sensors F/L/R: 0.71/1.15/2.00m | waypoint 3/13 | L/R pulses:    778/   794
+Step   2 | action: forward    | pos: ( 0.246,  0.002) | dist to goal:  0.95m | sensors F/L/R: 0.71/1.14/2.00m | waypoint 5/13 | L/R pulses:   2284/  2335
+Step   3 | action: forward    | pos: ( 0.432,  0.006) | dist to goal:  0.77m | sensors F/L/R: 0.74/1.09/2.00m | waypoint 6/13 | L/R pulses:   4032/  4086
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   4 | action: forward    | pos: ( 0.625,  0.008) | dist to goal:  0.57m | sensors F/L/R: 0.74/1.02/1.97m | waypoint 8/13 | L/R pulses:   5876/  5887
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   5 | action: forward    | pos: ( 0.823,  0.008) | dist to goal:  0.38m | sensors F/L/R: 0.72/0.95/1.91m | waypoint 10/13 | L/R pulses:   7744/  7736
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   6 | action: stop       | pos: ( 1.020,  0.005) | dist to goal:  0.18m | sensors F/L/R: 0.71/0.90/1.84m | waypoint 13/13 | L/R pulses:   9626/  9563
+         (waypoints complete, but position still distrusted from a recent stall -- 3 more step(s) before goal-reached will be trusted again)
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   7 | action: stop       | pos: ( 1.156,  0.000) | dist to goal:  0.04m | sensors F/L/R: 1.46/0.90/1.73m | waypoint 13/13 | L/R pulses:  10949/ 10792
+         (waypoints complete, but position still distrusted from a recent stall -- 3 more step(s) before goal-reached will be trusted again)
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   8 | action: stop       | pos: ( 1.193, -0.003) | dist to goal:  0.01m | sensors F/L/R: 1.50/1.35/1.67m | waypoint 13/13 | L/R pulses:  11368/ 11079
+         (waypoints complete, but position still distrusted from a recent stall -- 3 more step(s) before goal-reached will be trusted again)
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step   9 | action: stop       | pos: ( 1.194, -0.003) | dist to goal:  0.01m | sensors F/L/R: 1.50/1.33/1.65m | waypoint 13/13 | L/R pulses:  11374/ 11080
+         (waypoints complete, but position still distrusted from a recent stall -- 3 more step(s) before goal-reached will be trusted again)
+         WARNING: odometry shows forward progress the front sensor doesn't confirm -- likely wheel slip or the robot is mechanically stuck. Not trusting this position for goal-reached this step.
+Step  10 | action: stop       | pos: ( 1.194, -0.003) | dist to goal:  0.01m | sensors F/L/R: 1.47/1.33/1.65m | waypoint 13/13 | L/R pulses:  11374/ 11080
+         (waypoints complete, but position still distrusted from a recent stall -- 3 more step(s) before goal-reached will be trusted again)
+Step  11 | action: stop       | pos: ( 1.194, -0.003) | dist to goal:  0.01m | sensors F/L/R: 1.46/1.33/1.65m | waypoint 13/13 | L/R pulses:  11374/ 11080
+         (waypoints complete, but position still distrusted from a recent stall -- 2 more step(s) before goal-reached will be trusted again)
+Step  12 | action: stop       | pos: ( 1.194, -0.003) | dist to goal:  0.01m | sensors F/L/R: 1.46/1.33/1.65m | waypoint 13/13 | L/R pulses:  11374/ 11080
+         (waypoints complete, but position still distrusted from a recent stall -- 1 more step(s) before goal-reached will be trusted again)
+Step  13 | action: stop       | pos: ( 1.194, -0.003) | dist to goal:  0.01m | sensors F/L/R: 1.50/1.33/1.65m | waypoint 13/13 | L/R pulses:  11374/ 11080
+
+GOAL REACHED (per A* waypoint completion).
+Motors stopped.
